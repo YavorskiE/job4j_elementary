@@ -23,7 +23,7 @@ public class FindLoopTest {
         int expect = 3;
         assertThat(result, is(expect));
     }
-    
+
     @Test
     public void whenArrayHas7() {
         int[] input = {5, 4, 3, 2};
