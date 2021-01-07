@@ -1,12 +1,11 @@
 package ru.job4j.array;
 
 import org.junit.Test;
+import ru.job4j.array.Cinema.Place;
 
 import static org.hamcrest.Matchers.nullValue;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
-
-import static ru.job4j.array.Cinema.Place;
 
 public class CinemaTest {
     @Test

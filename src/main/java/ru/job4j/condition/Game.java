@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-import java.util.Objects;
-
 public class Game {
     public static void menu(String name) {
         if (name.equals("super mario")) { /* сравниваем переменную name с "super mario" */
