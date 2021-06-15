@@ -2,13 +2,13 @@ package ru.job4j;
 
 import java.util.Objects;
 
-public class Equals0 {
+public class Equals2 {
 
     private String name;
     private int index;
     private double weight;
 
-    public Equals0(String name, int index, double weight) {
+    public Equals2(String name, int index, double weight) {
         this.name = name;
         this.index = index;
         this.weight = weight;
@@ -40,18 +40,18 @@ public class Equals0 {
 
     @Override
     public String toString() {
-        return "Equals0{"
+        return "Equals2{"
                 + "name='" + name + '\''
                 + ", index=" + index
                 + ", weight=" + weight
-                + '}';
+                + "}";
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Equals0)) return false;
-        Equals0 toPlay = (Equals0) o;
+        if (!(o instanceof Equals2)) return false;
+        Equals2 toPlay = (Equals2) o;
         return getIndex() == toPlay.getIndex()
                 && Double.compare(toPlay.getWeight(), getWeight()) == 0
                 && Objects.equals(getName(), toPlay.getName());
@@ -62,28 +62,13 @@ public class Equals0 {
         return Objects.hash(getName(), getIndex(), getWeight());
     }
 
-    //    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (!(o instanceof Equals0)) return false;
-//        Equals0 toPlay = (Equals0) o;
-//        return index == toPlay.index
-//                && Double.compare(toPlay.weight, weight) == 0
-//                && name.equals(toPlay.name);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(name, index, weight);
-//    }
-
 //    @Override
 //    public boolean equals(Object obj) {
 //        if (this == obj)
 //            return true;
 //        if (obj == null || getClass() != obj.getClass())
 //            return false;
-//        Equals0 other = (Equals0) obj;
+//        Equals2 other = (Equals2) obj;
 //        if (name == null) {
 //            if (other.name != null)
 //                return false;
