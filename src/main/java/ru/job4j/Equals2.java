@@ -81,6 +81,7 @@ public class Equals2 {
 //        return true;
 //    }
 
+
 //    @Override
 //    public int hashCode() {
 //        final int prime = 31;
